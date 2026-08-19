@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <header class="chat-header">
+            <h1>ChatGPT</h1>
+        </header>
+
+        <main class="chat-box">
+
+            <div class="message bot-message">
+                <strong>ChatGPT:</strong>
+                <p>Hello! How can I help you today?</p>
+            </div>
+
+            <div class="message user-message">
+                <strong>You:</strong>
+                <p>Hi ChatGPT!</p>
+            </div>
+
+            <div class="message bot-message">
+                <strong>ChatGPT:</strong>
+                <p>Hello! Nice to meet you.</p>
+            </div>
+
+        </main>
+
+        <div class="input-area">
+            <input type="text" placeholder="Type your message...">
+            <button>➤</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
